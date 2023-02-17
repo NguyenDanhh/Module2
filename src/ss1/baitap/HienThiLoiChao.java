@@ -2,7 +2,7 @@ package ss1.baitap;
 
 import java.util.Scanner;
 
-public class Bai1 {
+public class HienThiLoiChao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào tên của bạn : ");

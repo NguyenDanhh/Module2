@@ -2,7 +2,7 @@ package ss2.thuchanh;
 
 import java.util.Scanner;
 
-public class Tinh_Tien_Lai {
+public class TinhTienLai {
     public static void main(String[] args) {
         float profitAmount;
         Scanner scanner = new Scanner(System.in);

@@ -2,7 +2,7 @@ package ss1.thuchanh;
 
 import java.util.Scanner;
 
-public class Tinh_So_Ngay_Trong_Thang {
+public class TinhSoNgayTrongThang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập tháng bạn muốn in ");

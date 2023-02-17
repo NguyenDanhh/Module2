@@ -2,7 +2,7 @@ package ss1.thuchanh;
 
 import java.util.Scanner;
 
-public class Tinh_Chi_So_Can_Nang {
+public class TinhChiSoCanNang {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào cân nặng ");

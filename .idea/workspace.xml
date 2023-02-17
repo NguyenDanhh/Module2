@@ -5,19 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss1/baitap/Bai1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/baitap/Bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/baitap/bai3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Giai_Phuong_Trinh_Bac_Nhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Hien_thi_thoi_gian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Khai_bao_va_su_dung_bien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Kiem_Tra_Nam_Nhuan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Su_Dung_Toan_Tu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_Chi_So_Can_Nang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_So_Ngay_Trong_Thang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/bai2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/Kiem_Tra_So_Nguyen_To.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/Tinh_Tien_Lai.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/CacSoNguyenToBeHon100.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/InCacLoaiHinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/InNSoNguyenToDauTien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/ThietKeMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/TimUocChungLonNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/ThemPhanTuTrongMang.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/HienThiLoiChao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/UngDungDocSoThanhChu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/UngDungChuyenDoiTienTe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Giai_Phuong_Trinh_Bac_Nhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/GiaiPhuongTrinhBacNhat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Hien_thi_thoi_gian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/HienThiThoiGian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Khai_bao_va_su_dung_bien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/KhaiBaoVaSuDungBien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Kiem_Tra_Nam_Nhuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/KiemTraNamNhuan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Su_Dung_Toan_Tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/SuDungToanTu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_Chi_So_Can_Nang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/TinhChiSoCanNang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_So_Ngay_Trong_Thang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/TinhSoNgayTrongThang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/baitap/bai2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/thuchanh/Kiem_Tra_So_Nguyen_To.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/thuchanh/KiemTraSoNguyenTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss2/thuchanh/Tinh_Tien_Lai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/thuchanh/TinhTienLai.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,74 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/Module2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/Module2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.bai2">
-    <configuration name="Bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.baitap.Bai2" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss1.baitap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Kiem_Tra_So_Nguyen_To" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2.thuchanh.Kiem_Tra_So_Nguyen_To" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss2.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tinh_Chi_So_Can_Nang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss1.thuchanh.Tinh_Chi_So_Can_Nang" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss1.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tinh_Tien_Lai" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2.thuchanh.Tinh_Tien_Lai" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss2.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="bai2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss2.baitap.bai2" />
+}</component>
+  <component name="RunManager" selected="Application.GopMang">
+    <configuration name="CacSoNguyenToBeHon100" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2.baitap.CacSoNguyenToBeHon100" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +81,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.baitap.GopMang" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InCacLoaiHinh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss2.baitap.InCacLoaiHinh" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss2.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThemPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.baitap.ThemPhanTuTrongMang" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XoaPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.baitap.XoaPhanTuTrongMang" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.bai2" />
-        <item itemvalue="Application.Bai2" />
-        <item itemvalue="Application.Tinh_Tien_Lai" />
-        <item itemvalue="Application.Kiem_Tra_So_Nguyen_To" />
-        <item itemvalue="Application.Tinh_Chi_So_Can_Nang" />
+        <item itemvalue="Application.GopMang" />
+        <item itemvalue="Application.ThemPhanTuTrongMang" />
+        <item itemvalue="Application.XoaPhanTuTrongMang" />
+        <item itemvalue="Application.InCacLoaiHinh" />
+        <item itemvalue="Application.CacSoNguyenToBeHon100" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +152,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676518555300</updated>
       <workItem from="1676518556642" duration="26000" />
-      <workItem from="1676518612701" duration="14291000" />
+      <workItem from="1676518612701" duration="14671000" />
+      <workItem from="1676560448457" duration="4000" />
+      <workItem from="1676600955177" duration="16649000" />
     </task>
     <servers />
   </component>

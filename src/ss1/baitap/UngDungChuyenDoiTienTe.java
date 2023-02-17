@@ -2,7 +2,7 @@ package ss1.baitap;
 
 import java.util.Scanner;
 
-public class bai3 {
+public class UngDungChuyenDoiTienTe {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào số tiền USD bạn muốn chuyển đổi : ");

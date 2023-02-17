@@ -1,9 +1,8 @@
 package ss1.baitap;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Bai2 {
+public class UngDungDocSoThanhChu {
     final static String ones[] = {" ", " ONE", " TWO", " THREE", " FOUR", " FIVE", " SIX", " SEVEN", " EIGHT",
             " NINE", " TEN", " ELEVEN", " TWELVE", " THIRTEEN", " FOURTEEN", " FIFTEEN", " SIXTEEN",
             " SEVENTEEN", " EIGHTEEN", " NINETEEN"};

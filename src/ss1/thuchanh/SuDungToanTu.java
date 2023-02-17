@@ -2,7 +2,7 @@ package ss1.thuchanh;
 
 import java.util.Scanner;
 
-public class Su_Dung_Toan_Tu {
+public class SuDungToanTu {
     public static void main(String[] args) {
         float width, height;
         Scanner scanner = new Scanner(System.in);

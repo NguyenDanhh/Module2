@@ -2,7 +2,7 @@ package ss1.thuchanh;
 
 import java.util.Scanner;
 
-public class Giai_Phuong_Trinh_Bac_Nhat {
+public class GiaiPhuongTrinhBacNhat {
 
     public static void main(String[] args) {
         System.out.println("Công thức của phương trình bậc nhất là ax + b = c ");
