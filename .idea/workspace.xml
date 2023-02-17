@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/CacSoNguyenToBeHon100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/InCacLoaiHinh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/baitap/InNSoNguyenToDauTien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/ThietKeMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss2/thuchanh/TimUocChungLonNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/ThemPhanTuTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/Bai1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/HienThiLoiChao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/Bai2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/UngDungDocSoThanhChu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/baitap/bai3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/baitap/UngDungChuyenDoiTienTe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Giai_Phuong_Trinh_Bac_Nhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/GiaiPhuongTrinhBacNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Hien_thi_thoi_gian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/HienThiThoiGian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Khai_bao_va_su_dung_bien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/KhaiBaoVaSuDungBien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Kiem_Tra_Nam_Nhuan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/KiemTraNamNhuan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Su_Dung_Toan_Tu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/SuDungToanTu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_Chi_So_Can_Nang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/TinhChiSoCanNang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss1/thuchanh/Tinh_So_Ngay_Trong_Thang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss1/thuchanh/TinhSoNgayTrongThang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss2/baitap/bai2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss2/thuchanh/Kiem_Tra_So_Nguyen_To.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/thuchanh/KiemTraSoNguyenTo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss2/thuchanh/Tinh_Tien_Lai.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss2/thuchanh/TinhTienLai.java" afterDir="false" />
-    </list>
+    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -154,7 +131,7 @@
       <workItem from="1676518556642" duration="26000" />
       <workItem from="1676518612701" duration="14671000" />
       <workItem from="1676560448457" duration="4000" />
-      <workItem from="1676600955177" duration="16649000" />
+      <workItem from="1676600955177" duration="17195000" />
     </task>
     <servers />
   </component>
