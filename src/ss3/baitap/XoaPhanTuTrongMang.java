@@ -11,7 +11,8 @@ public class XoaPhanTuTrongMang {
             System.out.println("Nhập vào phần tử thứ " + (i + 1));
             array[i] = Integer.parseInt(scanner.nextLine());
         }
-        System.out.println("Nhập vào phần tử muốn xóa");
+        System.out.println(Arrays.toString(array));
+        System.out.println("Nhập số muốn xóa trong mảng ");
         int number = Integer.parseInt(scanner.nextLine());
         for (int i = 0; i < array.length; i++) {
             if (number == array[i]) {

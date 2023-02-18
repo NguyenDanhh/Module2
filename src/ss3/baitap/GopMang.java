@@ -16,7 +16,7 @@ public class GopMang {
         System.out.println("Nhập vào độ dài mảng thứ hai ");
         int number1 = Integer.parseInt(scanner.nextLine());
         int[] array1 = new int[number1];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < array1.length; i++) {
             System.out.println("Nhập vào phần tử thứ " + (i + 1));
             array1[i] = Integer.parseInt(scanner.nextLine());
         }
@@ -27,6 +27,9 @@ public class GopMang {
 
         for (int i = 0; i < array.length; i++) {
             array2[i] = array[i];
+            for (int j = 0; j < array1.length; j++) {
+                array2[array.length + j] = array1[j];
+            }
         }
 
         System.out.println(Arrays.toString(array2));
