@@ -13,6 +13,9 @@ public class DemSoLanXuatHien {
         for (int i = 0; i < str.length(); i++) {
             if (check == str.charAt(i)) {
                 count++;
+            } else if (check != str.charAt(i)) {
+                System.out.println("Ký tự không tồn tại trong chuỗi");
+                break;
             }
         }
         System.out.println("Số lần ký tự " + check + " xuất hiện trong mảng là : " + count);

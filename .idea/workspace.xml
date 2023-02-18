@@ -53,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.XoaPhanTuTrongMang">
+  <component name="RunManager" selected="Application.DemSoLanXuatHien">
     <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3.baitap.DemSoLanXuatHien" />
       <module name="Module2" />
@@ -121,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemSoLanXuatHien" />
         <item itemvalue="Application.XoaPhanTuTrongMang" />
         <item itemvalue="Application.TimPhanTuLonNhat" />
         <item itemvalue="Application.ThemPhanTuTrongMang" />
         <item itemvalue="Application.GopMang" />
-        <item itemvalue="Application.DemSoLanXuatHien" />
       </list>
     </recent_temporary>
   </component>
