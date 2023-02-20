@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss3/thuchanh/DaoNguocMang.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss3/baitap/DemSoLanXuatHien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/DemSoLanXuatHien.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TImGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/TImGiaTriNhoNhat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TimPhanTuLonNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/TimPhanTuLonNhat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrenDuongCheo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrenDuongCheo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +51,19 @@
   }
 }</component>
   <component name="RunManager" selected="Application.DemSoLanXuatHien">
+    <configuration name="DaoNguocMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.thuchanh.DaoNguocMang" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss3.thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemSoLanXuatHien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3.baitap.DemSoLanXuatHien" />
       <module name="Module2" />
@@ -67,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GopMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.baitap.GopMang" />
+    <configuration name="TongCacSoTrenDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.baitap.TongCacSoTrenDuongCheo" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -80,21 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThemPhanTuTrongMang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.baitap.ThemPhanTuTrongMang" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3.baitap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimPhanTuLonNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.baitap.TimPhanTuLonNhat" />
+    <configuration name="TongCacSoTrongCot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss3.baitap.TongCacSoTrongCot" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
@@ -122,10 +119,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DemSoLanXuatHien" />
+        <item itemvalue="Application.TongCacSoTrongCot" />
+        <item itemvalue="Application.TongCacSoTrenDuongCheo" />
+        <item itemvalue="Application.DaoNguocMang" />
         <item itemvalue="Application.XoaPhanTuTrongMang" />
-        <item itemvalue="Application.TimPhanTuLonNhat" />
-        <item itemvalue="Application.ThemPhanTuTrongMang" />
-        <item itemvalue="Application.GopMang" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +140,8 @@
       <workItem from="1676600955177" duration="17195000" />
       <workItem from="1676699710740" duration="1410000" />
       <workItem from="1676705496176" duration="8282000" />
+      <workItem from="1676813791609" duration="1042000" />
+      <workItem from="1676859849894" duration="6134000" />
     </task>
     <servers />
   </component>

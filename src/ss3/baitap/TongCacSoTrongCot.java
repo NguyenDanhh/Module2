@@ -4,6 +4,28 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class TongCacSoTrongCot {
+    static int sum(int[][] array) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("bạn muốn in cột số nào : ");
+        int number = Integer.parseInt(scanner.next());
+        int sum = 0;
+
+        for (int i = 0; i < array.length; i++) {
+            if (number <= array[i].length) {
+                for (int j = 0; j < array[i].length; j++) {
+                    if (number == j) {
+                        sum += array[i][j];
+                    }
+                }
+            } else {
+                System.out.println("Không tồn tại!");
+                break;
+            }
+
+        }
+        return sum;
+    }
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào độ dài mảng lớn");
@@ -18,21 +40,6 @@ public class TongCacSoTrongCot {
             }
         }
         System.out.println(Arrays.deepToString(array));
-        System.out.println("bạn muốn in cột số nào : ");
-        int number = Integer.parseInt(scanner.next());
-        int sum = 0;
-
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                if (number == j) {
-                    sum += array[i][j];
-                } else if (number != j) {
-                    System.out.println("cột không tồn tại");
-                    break;
-                }
-            }
-
-        }
-        System.out.println(sum);
+        System.out.println(sum(array));
     }
 }
