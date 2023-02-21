@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss3/thuchanh/ChuyenDoiNhietDo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriNhoNhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriTrongMang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Fan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/QuadraticEquation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/QuadraticEquation/QuadraticEquation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/thuchanh/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/thuchanh/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/StopWatch/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/StopWatch/StopWatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/DemSoLanXuatHien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/CountOccurrences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4/baitap/Fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss4/baitap/Fan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,33 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TongCacSoTrenDuongCheo">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.thuchanh.Main" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss4.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimGiaTriNhoNhat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.thuchanh.TimGiaTriNhoNhat" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss3.thuchanh.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ss4.baitap.StopWatch.Main">
     <configuration name="TongCacSoTrenDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss3.baitap.TongCacSoTrenDuongCheo" />
       <module name="Module2" />
@@ -111,6 +78,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ss4.baitap.Fan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.baitap.Fan.Main" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss4.baitap.Fan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ss4.baitap.QuadraticEquation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss4.baitap.QuadraticEquation.Main" />
       <module name="Module2" />
@@ -124,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ss4.baitap.StopWatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss4.baitap.StopWatch.Main" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss4.baitap.StopWatch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ss4.baitap.StopWatch.Main" />
+        <item itemvalue="Application.ss4.baitap.Fan.Main" />
         <item itemvalue="Application.TongCacSoTrenDuongCheo" />
         <item itemvalue="Application.TongCacSoTrongCot" />
         <item itemvalue="Application.ss4.baitap.QuadraticEquation.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TimGiaTriNhoNhat" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +144,7 @@
       <workItem from="1676813791609" duration="1042000" />
       <workItem from="1676859849894" duration="8321000" />
       <workItem from="1676874474649" duration="7320000" />
-      <workItem from="1676947260179" duration="7183000" />
+      <workItem from="1676947260179" duration="11322000" />
     </task>
     <servers />
   </component>
