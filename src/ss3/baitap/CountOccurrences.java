@@ -2,7 +2,7 @@ package ss3.baitap;
 
 import java.util.Scanner;
 
-public class DemSoLanXuatHien {
+public class CountOccurrences {
     static void checkString(String str) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào kí tự cần kiểm tra");

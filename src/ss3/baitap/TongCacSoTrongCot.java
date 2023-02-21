@@ -12,11 +12,7 @@ public class TongCacSoTrongCot {
 
         for (int i = 0; i < array.length; i++) {
             if (number <= array[i].length) {
-                for (int j = 0; j < array[i].length; j++) {
-                    if (number == j) {
-                        sum += array[i][j];
-                    }
-                }
+                sum += array[i][number];
             } else {
                 System.out.println("Không tồn tại!");
                 break;
