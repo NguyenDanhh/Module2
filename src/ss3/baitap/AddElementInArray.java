@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ThemPhanTuTrongMang {
+public class AddElementInArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] array = {10, 4, 6, 7, 8, 0, 0, 0, 0, 0};

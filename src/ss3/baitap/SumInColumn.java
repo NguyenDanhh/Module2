@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TongCacSoTrongCot {
+public class SumInColumn {
     static int sum(int[][] array) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("bạn muốn in cột số nào : ");

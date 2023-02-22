@@ -1,9 +1,8 @@
 package ss3.thuchanh;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
-public class TimGiaTriTrongMang {
+public class FindValueOnArray {
     public static void main(String[] args) {
         String[] studentsName = {"Hanh" , "Tri" , "Danh" , "Duc"};
         Scanner scanner = new Scanner(System.in);

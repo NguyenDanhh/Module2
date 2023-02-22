@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/StopWatch/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss4/baitap/StopWatch/StopWatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/AccessModifier/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/AccessModifier/CircleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/BuildClassWriteInJava/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/BuildClassWriteInJava/TestStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticMethod/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticMethod/TestStaticMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticProperty/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticProperty/TestStaticProperty.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/baitap/Fan/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Fan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss4/baitap/Fan/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss4/baitap/Fan/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/MergeArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TImGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/FindMaxValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/ThemPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/AddElementInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TimPhanTuLonNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/FindMaxElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrenDuongCheo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/SumOnTheDiagonal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/SumInColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/DeleteElementOnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/ChuyenDoiNhietDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/TemperatureSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/DaoNguocMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/FindMinValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/FindValueOnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ss4.baitap.StopWatch.Main">
-    <configuration name="TongCacSoTrenDuongCheo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.baitap.TongCacSoTrenDuongCheo" />
+  <component name="RunManager" selected="Application.TestStudent">
+    <configuration name="CircleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.baitap.AccessModifier.CircleController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3.baitap.*" />
+          <option name="PATTERN" value="ss5.baitap.AccessModifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TongCacSoTrongCot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss3.baitap.TongCacSoTrongCot" />
+    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.thuhanh.StaticMethod.TestStaticMethod" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss3.baitap.*" />
+          <option name="PATTERN" value="ss5.thuhanh.StaticMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss4.baitap.Fan.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.baitap.Fan.Main" />
+    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.thuhanh.StaticProperty.TestStaticProperty" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4.baitap.Fan.*" />
+          <option name="PATTERN" value="ss5.thuhanh.StaticProperty.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss4.baitap.QuadraticEquation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.baitap.QuadraticEquation.Main" />
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss5.baitap.BuildClassWriteInJava.TestStudent" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4.baitap.QuadraticEquation.*" />
+          <option name="PATTERN" value="ss5.baitap.BuildClassWriteInJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.CircleController" />
+        <item itemvalue="Application.TestStaticProperty" />
+        <item itemvalue="Application.TestStaticMethod" />
         <item itemvalue="Application.ss4.baitap.StopWatch.Main" />
-        <item itemvalue="Application.ss4.baitap.Fan.Main" />
-        <item itemvalue="Application.TongCacSoTrenDuongCheo" />
-        <item itemvalue="Application.TongCacSoTrongCot" />
-        <item itemvalue="Application.ss4.baitap.QuadraticEquation.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +160,9 @@
       <workItem from="1676859849894" duration="8321000" />
       <workItem from="1676874474649" duration="7320000" />
       <workItem from="1676947260179" duration="11322000" />
+      <workItem from="1677022416383" duration="154000" />
+      <workItem from="1677035312883" duration="5404000" />
+      <workItem from="1677047436727" duration="1212000" />
     </task>
     <servers />
   </component>

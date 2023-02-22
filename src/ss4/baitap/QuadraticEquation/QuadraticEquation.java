@@ -1,7 +1,9 @@
 package ss4.baitap.QuadraticEquation;
 
 public class QuadraticEquation {
-    float number1, number2, number3;
+    float number1;
+    float number2;
+    float number3;
 
     public QuadraticEquation(float number1, float number2, float number3) {
         this.number1 = number1;

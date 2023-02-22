@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TimPhanTuLonNhat {
+public class FindMaxElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[][] array = new int[2][5];

@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class GopMang {
+public class MergeArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào độ dài mảng thứ nhất ");

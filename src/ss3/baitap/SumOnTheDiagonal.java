@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TongCacSoTrenDuongCheo {
+public class SumOnTheDiagonal {
     static int sum(int[][] array) {
         int sum = 0;
         for (int i = 0; i < array.length; i++) {

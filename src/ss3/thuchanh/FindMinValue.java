@@ -1,6 +1,6 @@
 package ss3.thuchanh;
 
-public class TimGiaTriNhoNhat {
+public class FindMinValue {
     public static void main(String[] args) {
         int[] array = {4, 12, 7, 8, 1, 6, 9};
         int min = array[0];

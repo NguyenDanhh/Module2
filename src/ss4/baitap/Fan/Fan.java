@@ -1,7 +1,9 @@
 package ss4.baitap.Fan;
 
 public class Fan {
-    final byte SLOW = 1, MEDIUM = 2, FAST = 3;
+    final byte SLOW = 1;
+    final byte MEDIUM = 2;
+    final byte FAST = 3;
     public byte Speed = SLOW;
     public boolean on = false;
     public double radius = 5;

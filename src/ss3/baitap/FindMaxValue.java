@@ -2,7 +2,7 @@ package ss3.baitap;
 
 import java.util.Scanner;
 
-public class TImGiaTriNhoNhat {
+public class FindMaxValue {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào độ dài của mảng");

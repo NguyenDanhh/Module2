@@ -1,9 +1,8 @@
 package ss3.thuchanh;
 
-import javax.sound.midi.Soundbank;
 import java.util.Scanner;
 
-public class ChuyenDoiNhietDo {
+public class TemperatureSwitch {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int number;

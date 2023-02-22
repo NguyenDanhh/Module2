@@ -3,7 +3,7 @@ package ss3.baitap;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class XoaPhanTuTrongMang {
+public class DeleteElementOnArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[4];
