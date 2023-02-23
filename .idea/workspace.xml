@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/AccessModifier/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/AccessModifier/CircleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/BuildClassWriteInJava/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/baitap/BuildClassWriteInJava/TestStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticMethod/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticMethod/TestStaticMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticProperty/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss5/thuhanh/StaticProperty/TestStaticProperty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/CircleAndCylinder/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/CircleAndCylinder/CircleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/CircleAndCylinder/CylindeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/CircleAndCylinder/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Point2DandPoint3D/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Point2DandPoint3D/Point2DController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Point2DandPoint3D/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Point2DandPoint3D/Point3DController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/PointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuchanh/SystemOfGeometricObjects/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuchanh/SystemOfGeometricObjects/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuchanh/SystemOfGeometricObjects/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuchanh/SystemOfGeometricObjects/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss6/thuchanh/SystemOfGeometricObjects/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/GopMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/MergeArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TImGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/FindMaxValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/ThemPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/AddElementInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TimPhanTuLonNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/FindMaxElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrenDuongCheo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/SumOnTheDiagonal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/TongCacSoTrongCot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/SumInColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/baitap/XoaPhanTuTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/baitap/DeleteElementOnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/ChuyenDoiNhietDo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/TemperatureSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/DaoNguocMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/ReverseArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriNhoNhat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/FindMinValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss3/thuchanh/TimGiaTriTrongMang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss3/thuchanh/FindValueOnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +63,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestStudent">
+  <component name="RunManager" selected="Application.PointController">
     <configuration name="CircleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.baitap.AccessModifier.CircleController" />
+      <option name="MAIN_CLASS_NAME" value="ss6.baitap.CircleAndCylinder.CircleController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.baitap.AccessModifier.*" />
+          <option name="PATTERN" value="ss6.baitap.CircleAndCylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.thuhanh.StaticMethod.TestStaticMethod" />
+    <configuration name="CylindeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.baitap.CircleAndCylinder.CylindeController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.thuhanh.StaticMethod.*" />
+          <option name="PATTERN" value="ss6.baitap.CircleAndCylinder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStaticProperty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.thuhanh.StaticProperty.TestStaticProperty" />
+    <configuration name="Point2DController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.baitap.Point2DandPoint3D.Point2DController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.thuhanh.StaticProperty.*" />
+          <option name="PATTERN" value="ss6.baitap.Point2DandPoint3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss5.baitap.BuildClassWriteInJava.TestStudent" />
+    <configuration name="Point3DController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.baitap.Point2DandPoint3D.Point3DController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss5.baitap.BuildClassWriteInJava.*" />
+          <option name="PATTERN" value="ss6.baitap.Point2DandPoint3D.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss4.baitap.StopWatch.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss4.baitap.StopWatch.Main" />
+    <configuration name="PointController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss6.baitap.PointAndMoveablePoint.PointController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss4.baitap.StopWatch.*" />
+          <option name="PATTERN" value="ss6.baitap.PointAndMoveablePoint.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.PointController" />
         <item itemvalue="Application.CircleController" />
-        <item itemvalue="Application.TestStaticProperty" />
-        <item itemvalue="Application.TestStaticMethod" />
-        <item itemvalue="Application.ss4.baitap.StopWatch.Main" />
+        <item itemvalue="Application.Point3DController" />
+        <item itemvalue="Application.Point2DController" />
+        <item itemvalue="Application.CylindeController" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +159,10 @@
       <workItem from="1676947260179" duration="11322000" />
       <workItem from="1677022416383" duration="154000" />
       <workItem from="1677035312883" duration="5404000" />
-      <workItem from="1677047436727" duration="1212000" />
+      <workItem from="1677047436727" duration="5246000" />
+      <workItem from="1677123236569" duration="4210000" />
+      <workItem from="1677134036127" duration="8644000" />
+      <workItem from="1677156577323" duration="1218000" />
     </task>
     <servers />
   </component>
