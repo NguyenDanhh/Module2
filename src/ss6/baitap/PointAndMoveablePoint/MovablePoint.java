@@ -53,7 +53,9 @@ public class MovablePoint extends Point {
                 '}';
     }
 
-    public float move() {
-
+    public MovablePoint move() {
+        setX(xSpeed+getX());
+        setY(ySpeed+getY());
+        return this;
     }
 }
