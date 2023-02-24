@@ -1,5 +1,7 @@
 package ss6.baitap.PointAndMoveablePoint;
 
+import java.util.Arrays;
+
 public class MovablePoint extends Point {
     private float xSpeed = 0.0f;
     private float ySpeed = 0.0f;
@@ -49,7 +51,7 @@ public class MovablePoint extends Point {
     @Override
     public String toString() {
         return "MovablePoint{" + super.toString() +
-                "Speed=" + getSpeed() +
+                "Speed=" + Arrays.toString(getSpeed())+
                 '}';
     }
 

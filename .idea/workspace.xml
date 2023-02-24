@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePointController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePointController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +149,7 @@
       <workItem from="1677123236569" duration="4210000" />
       <workItem from="1677134036127" duration="8644000" />
       <workItem from="1677156577323" duration="1376000" />
-      <workItem from="1677208263261" duration="997000" />
+      <workItem from="1677208263261" duration="1370000" />
     </task>
     <servers />
   </component>
