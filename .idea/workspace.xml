@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/CircleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/IResizeable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/RectangleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceResizeable/SquareController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/AnimalandInterfaceEdible/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/AnimalandInterfaceEdible/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/AnimalandInterfaceEdible/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/AnimalandInterfaceEdible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/AnimalandInterfaceEdible/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/InterfaceComparable/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/InterfaceComparable/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/InterfaceComparable/ComparableCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/InterfaceComparable/ComparableCircleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePointController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss6/baitap/PointAndMoveablePoint/MovablePointController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="module-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -49,13 +65,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MovablePointController">
+  <component name="RunManager" selected="Application.SquareCotroller">
     <configuration name="CircleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.baitap.CircleAndCylinder.CircleController" />
+      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceResizeable.CircleController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6.baitap.CircleAndCylinder.*" />
+          <option name="PATTERN" value="ss7.baitap.InterfaceResizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovablePointController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.baitap.PointAndMoveablePoint.MovablePointController" />
+    <configuration name="InterfaceResizeableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceColorable.InterfaceResizeableTest" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6.baitap.PointAndMoveablePoint.*" />
+          <option name="PATTERN" value="ss7.baitap.InterfaceColorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point2DController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.baitap.Point2DandPoint3D.Point2DController" />
+    <configuration name="RectangleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceResizeable.RectangleController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6.baitap.Point2DandPoint3D.*" />
+          <option name="PATTERN" value="ss7.baitap.InterfaceResizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Point3DController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.baitap.Point2DandPoint3D.Point3DController" />
+    <configuration name="SquareController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceResizeable.SquareController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6.baitap.Point2DandPoint3D.*" />
+          <option name="PATTERN" value="ss7.baitap.InterfaceResizeable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PointController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss6.baitap.PointAndMoveablePoint.PointController" />
+    <configuration name="SquareCotroller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceColorable.SquareCotroller" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss6.baitap.PointAndMoveablePoint.*" />
+          <option name="PATTERN" value="ss7.baitap.InterfaceColorable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MovablePointController" />
-        <item itemvalue="Application.PointController" />
+        <item itemvalue="Application.SquareCotroller" />
+        <item itemvalue="Application.SquareController" />
+        <item itemvalue="Application.RectangleController" />
         <item itemvalue="Application.CircleController" />
-        <item itemvalue="Application.Point3DController" />
-        <item itemvalue="Application.Point2DController" />
+        <item itemvalue="Application.InterfaceResizeableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +165,9 @@
       <workItem from="1677123236569" duration="4210000" />
       <workItem from="1677134036127" duration="8644000" />
       <workItem from="1677156577323" duration="1376000" />
-      <workItem from="1677208263261" duration="1370000" />
+      <workItem from="1677208263261" duration="3288000" />
+      <workItem from="1677223517289" duration="7583000" />
+      <workItem from="1677329596149" duration="3083000" />
     </task>
     <servers />
   </component>
