@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/Model/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/View/MyListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Triangle/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Triangle/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss6/baitap/Triangle/TriangleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss7/thuchanh/InterfaceComparator/CircleComperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss8/baitap/Refactoring/TennisGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss7/baitap/InterfaceColorable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss7/baitap/InterfaceColorable/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/View/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/View/MyListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss8/baitap/Refactoring/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/baitap/Refactoring/TennisGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +157,8 @@
       <workItem from="1677329596149" duration="4470000" />
       <workItem from="1677396667094" duration="3804000" />
       <workItem from="1677466672813" duration="8036000" />
+      <workItem from="1677554579798" duration="1976000" />
+      <workItem from="1677575335518" duration="858000" />
     </task>
     <servers />
   </component>
