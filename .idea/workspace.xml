@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/MyList/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/View/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/View/MyListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/thuchanh/SimpleListClass/View/MyListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss8/baitap/Refactoring/TennisGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss8/baitap/Refactoring/TennisGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/MyList.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +59,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyListTest">
-    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10.thuchanh.SimpleListClass.View.MyListTest" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.baitap.StudentManagement.View.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss10.thuchanh.SimpleListClass.View.*" />
+          <option name="PATTERN" value="ss10.baitap.StudentManagement.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss7.baitap.InterfaceResizeable.RectangleController" />
+    <configuration name="MyListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.thuchanh.SimpleListClass.View.MyListTest" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss7.baitap.InterfaceResizeable.*" />
+          <option name="PATTERN" value="ss10.thuchanh.SimpleListClass.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.MyListTest" />
         <item itemvalue="Application.TriangleController" />
         <item itemvalue="Application.SquareCotroller" />
         <item itemvalue="Application.SquareController" />
-        <item itemvalue="Application.RectangleController" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +166,7 @@
       <workItem from="1677466672813" duration="8036000" />
       <workItem from="1677554579798" duration="1976000" />
       <workItem from="1677575335518" duration="858000" />
+      <workItem from="1677589630485" duration="5146000" />
     </task>
     <servers />
   </component>
