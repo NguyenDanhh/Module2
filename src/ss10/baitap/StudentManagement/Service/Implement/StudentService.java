@@ -63,14 +63,11 @@ public class StudentService implements IStudentService {
                     case 1:
                         iStudentRepository.deleteStudent(i);
                         System.out.println("Xóa thành công ");
-                        break;
                     case 2:
-                        break;
                 }
-            } else if(removeID != list.get(i).getId()) {
-                System.out.println("Không tồn tại");
-                break;
+                return;
             }
         }
+        System.out.println("Không tồn tại");
     }
 }
