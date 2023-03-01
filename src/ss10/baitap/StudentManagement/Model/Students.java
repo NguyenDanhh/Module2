@@ -1,16 +1,16 @@
 package ss10.baitap.StudentManagement.Model;
 
-public class Students extends Person{
-    private String className ;
-    private  double point ;
+public class Students extends Person {
+    private String className;
+    private double point;
 
     public Students() {
     }
 
-    public Students(int id, String name, String dateOfBirth, Boolean gender, String className, double point, String className1, double point1) {
-        super(id, name, dateOfBirth, gender, className, point);
-        this.className = className1;
-        this.point = point1;
+    public Students(int id, String name, String dateOfBirth, Boolean gender, String className, double point) {
+        super(id, name, dateOfBirth, gender);
+        this.className = className;
+        this.point = point;
     }
 
     public String getClassName() {
@@ -27,5 +27,13 @@ public class Students extends Person{
 
     public void setPoint(double point) {
         this.point = point;
+    }
+
+    @Override
+    public String toString() {
+        return "Students{" + super.toString() +
+                "className='" + className + '\'' +
+                ", point=" + point +
+                '}';
     }
 }

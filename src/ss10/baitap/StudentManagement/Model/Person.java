@@ -9,7 +9,7 @@ public abstract class Person {
     public Person() {
     }
 
-    public Person(int id, String name, String dateOfBirth, Boolean gender, String className, double point) {
+    public Person(int id, String name, String dateOfBirth, Boolean gender) {
         this.id = id;
         this.name = name;
         this.dateOfBirth = dateOfBirth;
@@ -48,4 +48,11 @@ public abstract class Person {
         this.gender = gender;
     }
 
+    @Override
+    public String toString() {
+        return "id= " + id +
+                ", name=' " + name + '\'' +
+                ", dateOfBirth=' " + dateOfBirth + '\'' +
+                ", gender= " + gender;
+    }
 }

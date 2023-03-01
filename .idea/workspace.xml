@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/MyList/MyList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Students.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/IStudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/View/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/MyList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Students.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/IStudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/IStudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/IStudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,8 @@
       <workItem from="1677466672813" duration="8036000" />
       <workItem from="1677554579798" duration="1976000" />
       <workItem from="1677575335518" duration="858000" />
-      <workItem from="1677589630485" duration="5146000" />
+      <workItem from="1677589630485" duration="11622000" />
+      <workItem from="1677646241359" duration="1265000" />
     </task>
     <servers />
   </component>
