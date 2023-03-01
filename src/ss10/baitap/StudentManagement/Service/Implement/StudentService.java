@@ -11,6 +11,7 @@ import java.util.Scanner;
 public class StudentService implements IStudentService {
     IStudentRepository iStudentRepository = new StudentRepository();
     List<Students> list = iStudentRepository.getAll();
+
     @Override
     public void display() {
 
@@ -44,6 +45,7 @@ public class StudentService implements IStudentService {
         double point = Double.parseDouble(scanner.nextLine());
         Students students = new Students(id, name, dateOfBirth, gender, className, point);
         iStudentRepository.addStudent(students);
+        System.out.println("Thêm thành công!");
     }
 
     @Override
@@ -51,11 +53,23 @@ public class StudentService implements IStudentService {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập id muốn xóa ");
         int removeID = Integer.parseInt(scanner.nextLine());
-        for (int i = 0 ; i < list.size() ; i++) {
-            if(removeID == list.get(i).getId()){
-                iStudentRepository.deleteStudent(i);
-            }else {
-                System.out.println("Không tồn tại!");
+        for (int i = 0; i < list.size(); i++) {
+            if (removeID == list.get(i).getId()) {
+                System.out.println("Bạn có chắc muốn xóa không ");
+                System.out.println("1. Có");
+                System.out.println("2. Không ");
+                int number = Integer.parseInt(scanner.nextLine());
+                switch (number) {
+                    case 1:
+                        iStudentRepository.deleteStudent(i);
+                        System.out.println("Xóa thành công ");
+                        break;
+                    case 2:
+                        break;
+                }
+            } else if(removeID != list.get(i).getId()) {
+                System.out.println("Không tồn tại");
+                break;
             }
         }
     }
