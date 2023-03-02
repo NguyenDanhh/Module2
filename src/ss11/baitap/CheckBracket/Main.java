@@ -8,7 +8,6 @@ public class Main {
         String string2 = "(– b + (b2 – 4*a*c)^0.5) / 2*a";
         String string3 = "s * (s – a) * (s – b * (s – c)";
         String string4 = "s * (s – a) * s – b) * (s – c)";
-
         System.out.println(string1 + " : " + checkParenthesis(string1));
         System.out.println(string2 + " : " + checkParenthesis(string2));
         System.out.println(string3 + " : " + checkParenthesis(string3));
