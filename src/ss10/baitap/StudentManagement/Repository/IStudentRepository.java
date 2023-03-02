@@ -8,5 +8,5 @@ public interface IStudentRepository {
     List<Students> getAll();
 
     void addStudent(Students students);
-    void deleteStudent(int i) ;
+    void deleteStudent(int id) ;
 }
