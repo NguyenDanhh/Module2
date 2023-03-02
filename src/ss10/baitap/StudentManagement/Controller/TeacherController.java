@@ -10,15 +10,15 @@ import java.util.Scanner;
 public class TeacherController {
     ITeacherService iTeacherService = new TeacherService();
 
-    public void menuStudent() {
+    public void menuTeacher() {
         Scanner scanner = new Scanner(System.in);
         int choice;
         do {
             System.out.println("----------------------------------------");
             System.out.println("Các chức năng : ");
-            System.out.println("1. Thêm học sinh ");
-            System.out.println("2. Xóa học sinh ");
-            System.out.println("3. Xem danh sách học sinh ");
+            System.out.println("1. Thêm giảng viên ");
+            System.out.println("2. Xóa giảng viên ");
+            System.out.println("3. Xem danh sách giảng viên ");
             System.out.println("4. Thoát");
             System.out.println("Chọn chức năng ");
             choice = Integer.parseInt(scanner.nextLine());
@@ -34,8 +34,8 @@ public class TeacherController {
                     iTeacherService.display();
                     break;
                 case 4:
-                    break;
+                    return;
             }
-        } while (choice > 0 && choice < 5);
+        } while (choice > 0 && choice < 4);
     }
 }

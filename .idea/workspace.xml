@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/TeacherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Model/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/ITeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/CheckBracket/CheckBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/CheckBracket/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/DecimalToBinary/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/Palindrome/CheckString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/Queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/Queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/ReverseArray/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss11/baitap/ReverseArray/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/ITeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/TeacherRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/TeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Controller/TeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/View/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/View/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11/baitap/Queue/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss11/baitap/Queue/Queue.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ss11.baitap.CheckBracket.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CheckString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss11.baitap.Palindrome.CheckString" />
       <module name="Module2" />
@@ -90,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.baitap.ReverseArray.ReverseInteger" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.baitap.StudentManagement.View.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss11.baitap.ReverseArray.*" />
+          <option name="PATTERN" value="ss10.baitap.StudentManagement.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Convert" />
         <item itemvalue="Application.ss11.baitap.CheckBracket.Main" />
         <item itemvalue="Application.CheckString" />
-        <item itemvalue="Application.Convert" />
         <item itemvalue="Application.ReverseString" />
-        <item itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +166,8 @@
       <workItem from="1677575335518" duration="858000" />
       <workItem from="1677589630485" duration="11622000" />
       <workItem from="1677646241359" duration="9032000" />
-      <workItem from="1677677491821" duration="6310000" />
+      <workItem from="1677677491821" duration="6618000" />
+      <workItem from="1677726883285" duration="3594000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 package ss10.baitap.StudentManagement.Model;
 
-public class Teacher extends Person{
-    private String specialize ;
+public class Teacher extends Person {
+    private String specialize;
 
     public Teacher() {
     }
