@@ -9,10 +9,9 @@ import java.util.Scanner;
 
 public class ProductService implements IProducService {
     IProductRepository iProductRepository = new ProductRepository();
-    List<Product> list = iProductRepository.getList();
-
     @Override
     public void displayAll() {
+        List<Product> list = iProductRepository.getList();
         for (Product product : list) {
             System.out.println(product);
         }
@@ -20,12 +19,13 @@ public class ProductService implements IProducService {
 
     @Override
     public void findElement() {
+        List<Product> list = iProductRepository.getList();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập id ");
         int id = Integer.parseInt(scanner.nextLine());
         for (Product elemnet : list) {
             if (elemnet.getId() == id) {
-                System.out.println("Phần tử có trong mảng ");
+                System.out.println(elemnet);
             } else {
                 System.out.println("Phần tử không có trong mảng ");
             }
@@ -51,9 +51,11 @@ public class ProductService implements IProducService {
 
     @Override
     public void editProduct() {
+        List<Product> list = iProductRepository.getList();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập vào id muốn chỉnh sửa : ");
         int id = Integer.parseInt(scanner.nextLine());
+        iProductRepository.editProduct(id);
         for (Product elemnt : list) {
             if (elemnt.getId() == id) {
                 System.out.println("Mời nhập tên sản phầm cần chỉnh sửa ");
@@ -66,14 +68,16 @@ public class ProductService implements IProducService {
                 String color = scanner.nextLine();
                 elemnt.setColor(color);
                 System.out.println("Chỉnh sửa thành công !");
+                return;
             }
-            return;
+
         }
-        System.out.println(" Phần tử không tồn tại !");
+        System.out.println("Không tồn tại ");
     }
 
     @Override
     public void deleteProduct() {
+        List<Product> list = iProductRepository.getList();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Nhập id cần xóa :");
         int id = Integer.parseInt(scanner.nextLine());

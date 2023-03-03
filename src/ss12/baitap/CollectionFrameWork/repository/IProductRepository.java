@@ -9,6 +9,8 @@ public interface IProductRepository {
 
     void findElement();
 
+    void findElement(int id);
+
     void addProduct(Product product);
 
     void editProduct(int id);

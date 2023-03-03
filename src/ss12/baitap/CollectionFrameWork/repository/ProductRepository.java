@@ -23,12 +23,20 @@ public class ProductRepository implements IProductRepository {
     }
 
     @Override
+    public void findElement(int id) {
+
+    }
+
+
+    @Override
     public void addProduct(Product product) {
         productsList.add(product);
     }
 
     @Override
-    public void editProduct(int id) {
+    public void editProduct( int id ) {
+        productsList.contains(id);
+
     }
 
     @Override
