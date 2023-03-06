@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss13/baitap/AlgorithmSettings/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/baitap/FindAscendingSeries/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss13/baitap/FindConsecutiveSeries/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/baitap/IllustrateInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/baitap/installInsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss14/thuchanh/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/IProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/service/ProductService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,53 +39,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/codegym/Module2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/Module2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.IllustrateInsertionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.thuchanh.BubbleSort" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14.thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IllustrateInsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14.baitap.IllustrateInsertionSort" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss13.baitap.AlgorithmSettings.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss13.baitap.AlgorithmSettings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss12.baitap.CollectionFrameWork.view.main" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss12.baitap.CollectionFrameWork.view.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss11.baitap.Map.CheckString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss11.baitap.Map.CheckString" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss11.baitap.Map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IllustrateInsertionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ss13.baitap.FindConsecutiveSeries.Main" />
         <item itemvalue="Application.ss13.baitap.FindAscendingSeries.Main" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.ss11.baitap.Map.CheckString" />
       </list>
     </recent_temporary>
   </component>
@@ -171,6 +169,9 @@
       <workItem from="1677770169734" duration="6106000" />
       <workItem from="1677812550935" duration="6173000" />
       <workItem from="1677825243909" duration="9406000" />
+      <workItem from="1677915895956" duration="14000" />
+      <workItem from="1677924206352" duration="643000" />
+      <workItem from="1678070947987" duration="3076000" />
     </task>
     <servers />
   </component>

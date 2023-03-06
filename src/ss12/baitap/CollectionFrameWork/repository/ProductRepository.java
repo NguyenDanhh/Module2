@@ -19,7 +19,6 @@ public class ProductRepository implements IProductRepository {
 
     @Override
     public void findElement() {
-
     }
 
     @Override
