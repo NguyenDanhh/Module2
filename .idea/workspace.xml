@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss14/baitap/IllustrateInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14/baitap/installInsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss14/thuchanh/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/ProductRepository.java" afterDir="false" />
-    </list>
+    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/Module2",
+    "last_opened_file_path": "D:/codegym/newProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -172,6 +166,7 @@
       <workItem from="1677915895956" duration="14000" />
       <workItem from="1677924206352" duration="643000" />
       <workItem from="1678070947987" duration="3076000" />
+      <workItem from="1678087484166" duration="224000" />
     </task>
     <servers />
   </component>
