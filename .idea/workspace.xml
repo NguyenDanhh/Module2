@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="" />
+    <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss15/baitap/IllegalTriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Repository/Implement/StudentRepository.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +37,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/newProject",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/newProject&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.IllustrateInsertionSort">
+}</component>
+  <component name="RunManager" selected="Application.IllegalTriangleException">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss14.thuchanh.BubbleSort" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss14.thuchanh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IllegalTriangleException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss15.baitap.IllegalTriangleException" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss15.baitap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,25 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss13.baitap.FindAscendingSeries.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.baitap.FindAscendingSeries.Main" />
+    <configuration name="ss10.baitap.StudentManagement.View.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss10.baitap.StudentManagement.View.Main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.baitap.FindAscendingSeries.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss13.baitap.FindConsecutiveSeries.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.baitap.FindConsecutiveSeries.Main" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss13.baitap.FindConsecutiveSeries.*" />
+          <option name="PATTERN" value="ss10.baitap.StudentManagement.View.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IllegalTriangleException" />
+        <item itemvalue="Application.ss10.baitap.StudentManagement.View.Main" />
         <item itemvalue="Application.IllustrateInsertionSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ss13.baitap.FindConsecutiveSeries.Main" />
-        <item itemvalue="Application.ss13.baitap.FindAscendingSeries.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +171,9 @@
       <workItem from="1677924206352" duration="643000" />
       <workItem from="1678070947987" duration="3076000" />
       <workItem from="1678087484166" duration="224000" />
+      <workItem from="1678108238840" duration="343000" />
+      <workItem from="1678160319936" duration="2687000" />
+      <workItem from="1678174650163" duration="713000" />
     </task>
     <servers />
   </component>
