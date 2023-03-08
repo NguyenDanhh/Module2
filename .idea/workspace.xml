@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ss16/baitap/coppyfiletext/CoppyFileText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/baitap/coppyfiletext/SourceFile.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/baitap/coppyfiletext/TargetFile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/baitap/readfilecsv/File.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/baitap/readfilecsv/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuchanh/SumInFileText/FileText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss16/thuchanh/SumInFileText/FileWriter.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/baitap/IllustrateInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/baitap/IllustrateInsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss14/baitap/installInsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss14/baitap/installInsertionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,27 +42,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/codegym/Module2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/Module2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.IllustrateInsertionSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss14.thuchanh.BubbleSort" />
+}</component>
+  <component name="RunManager" selected="Application.ReadFile">
+    <configuration name="CoppyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.baitap.coppyfiletext.CoppyFileText" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss14.thuchanh.*" />
+          <option name="PATTERN" value="ss16.baitap.coppyfiletext.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.thuchanh.SumInFileText.FileText" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss16.thuchanh.SumInFileText.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,25 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss13.baitap.AlgorithmSettings.Main" />
+    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss16.baitap.readfilecsv.ReadFile" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss13.baitap.AlgorithmSettings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ss10.baitap.StudentManagement.View.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss10.baitap.StudentManagement.View.Main" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss10.baitap.StudentManagement.View.*" />
+          <option name="PATTERN" value="ss16.baitap.readfilecsv.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile" />
+        <item itemvalue="Application.CoppyFileText" />
+        <item itemvalue="Application.FileText" />
         <item itemvalue="Application.IllustrateInsertionSort" />
         <item itemvalue="Application.IllegalTriangleException" />
-        <item itemvalue="Application.ss10.baitap.StudentManagement.View.Main" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -175,6 +180,7 @@
       <workItem from="1678160319936" duration="2687000" />
       <workItem from="1678174650163" duration="713000" />
       <workItem from="1678245370546" duration="1060000" />
+      <workItem from="1678257457932" duration="6920000" />
     </task>
     <servers />
   </component>
