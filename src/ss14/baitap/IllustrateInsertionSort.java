@@ -11,7 +11,7 @@ public class IllustrateInsertionSort {
         System.out.println("Nhập vào độ dài của mảng ");
         int number = Integer.parseInt(scanner.nextLine());
         int[] arr = new int[number];
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length ; i++) {
             System.out.println("Nhập vào phần tử thứ " + (i + 1));
             arr[i] = Integer.parseInt(scanner.nextLine());
         }
