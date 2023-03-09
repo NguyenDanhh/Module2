@@ -1,6 +1,6 @@
-package ss17.baitap.CollectionFrameWork.repository;
+package ss17.baitap.ProductManager.repository;
 
-import ss17.baitap.CollectionFrameWork.model.Product;
+import ss17.baitap.ProductManager.model.Product;
 
 import java.util.List;
 

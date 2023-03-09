@@ -1,4 +1,4 @@
-package ss17.baitap.CollectionFrameWork.model;
+package ss17.baitap.ProductManager.model;
 
 public class Product {
     private String id;

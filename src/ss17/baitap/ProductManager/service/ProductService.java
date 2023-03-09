@@ -1,8 +1,8 @@
-package ss17.baitap.CollectionFrameWork.service;
+package ss17.baitap.ProductManager.service;
 
-import ss17.baitap.CollectionFrameWork.model.Product;
-import ss17.baitap.CollectionFrameWork.repository.IProductRepository;
-import ss17.baitap.CollectionFrameWork.repository.ProductRepository;
+import ss17.baitap.ProductManager.model.Product;
+import ss17.baitap.ProductManager.repository.IProductRepository;
+import ss17.baitap.ProductManager.repository.ProductRepository;
 
 import java.util.List;
 import java.util.Scanner;

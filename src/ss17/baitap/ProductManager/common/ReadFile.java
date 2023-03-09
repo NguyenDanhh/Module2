@@ -1,6 +1,6 @@
-package ss17.baitap.CollectionFrameWork.common;
+package ss17.baitap.ProductManager.common;
 
-import ss17.baitap.CollectionFrameWork.model.Product;
+import ss17.baitap.ProductManager.model.Product;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
