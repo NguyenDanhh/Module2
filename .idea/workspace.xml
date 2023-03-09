@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/FileCopyBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/FileCopyBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/source_file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/source_file.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/target_file.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/target_file.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,7 +175,7 @@
       <workItem from="1678245370546" duration="1060000" />
       <workItem from="1678257457932" duration="12307000" />
       <workItem from="1678331768021" duration="8303000" />
-      <workItem from="1678372766741" duration="1932000" />
+      <workItem from="1678372766741" duration="2476000" />
     </task>
     <servers />
   </component>

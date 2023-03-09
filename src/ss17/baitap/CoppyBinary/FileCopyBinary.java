@@ -27,7 +27,7 @@ public class FileCopyBinary {
             inputStream.close();
             outputStream.close();
 
-            System.out.println("Có " + file.length() * 2 + " byte trong mảng ");
+            System.out.println("Có " + file.length() * 2 + " byte trong file ");
 
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
