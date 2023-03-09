@@ -1,6 +1,6 @@
-package ss12.baitap.CollectionFrameWork.repository;
+package ss17.baitap.CollectionFrameWork.repository;
 
-import ss12.baitap.CollectionFrameWork.model.Product;
+import ss17.baitap.CollectionFrameWork.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,6 @@ import java.util.List;
 public class ProductRepository implements IProductRepository {
     private static List<Product> productsList = new ArrayList<>();
 
-    static {
-        productsList.add(new Product(1, "Bóng rổ ", " 1/1/1", "orange"));
-        productsList.add(new Product(2, "Bóng rổ ", " 1/1/1", "blue"));
-    }
 
     public List<Product> getList() {
         return productsList;
@@ -33,7 +29,7 @@ public class ProductRepository implements IProductRepository {
     }
 
     @Override
-    public void editProduct( int id ) {
+    public void editProduct( String id ) {
         productsList.contains(id);
 
     }

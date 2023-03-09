@@ -1,4 +1,4 @@
-package ss12.baitap.CollectionFrameWork.service;
+package ss17.baitap.CollectionFrameWork.service;
 
 public interface IProducService {
     void displayAll();

@@ -1,7 +1,7 @@
-package ss12.baitap.CollectionFrameWork.controller;
+package ss17.baitap.CollectionFrameWork.controller;
 
-import ss12.baitap.CollectionFrameWork.service.IProducService;
-import ss12.baitap.CollectionFrameWork.service.ProductService;
+import ss17.baitap.CollectionFrameWork.service.IProducService;
+import ss17.baitap.CollectionFrameWork.service.ProductService;
 
 import java.util.Scanner;
 

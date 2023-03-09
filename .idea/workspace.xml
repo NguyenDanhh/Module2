@@ -5,12 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss15/baitap/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss15/thuchanh/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss16/thuchanh/SumInFileText/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/common/ReadFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/common/WriteFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/data/file_save_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/FileCopyBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/source_file.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/target_file.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss15/baitap/IllegalTriangleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss15/baitap/IllegalTriangleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/service/IProducService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/service/IProducService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss12/baitap/CollectionFrameWork/view/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CollectionFrameWork/view/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +62,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ss15.baitap.Test">
+  <component name="RunManager" selected="Application.ReadFile">
     <configuration name="CoppyFileText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss16.baitap.coppyfiletext.CoppyFileText" />
       <module name="Module2" />
@@ -122,10 +130,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ss15.baitap.Test" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.CoppyFileText" />
       </list>
     </recent_temporary>
@@ -178,7 +186,8 @@
       <workItem from="1678160319936" duration="2687000" />
       <workItem from="1678174650163" duration="713000" />
       <workItem from="1678245370546" duration="1060000" />
-      <workItem from="1678257457932" duration="12091000" />
+      <workItem from="1678257457932" duration="12307000" />
+      <workItem from="1678331768021" duration="8303000" />
     </task>
     <servers />
   </component>

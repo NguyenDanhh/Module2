@@ -1,7 +1,7 @@
-package ss12.baitap.CollectionFrameWork.model;
+package ss17.baitap.CollectionFrameWork.model;
 
 public class Product {
-    private int id;
+    private String id;
     private String nameProduct;
     private String dateOfManufacture;
     private String color;
@@ -9,18 +9,17 @@ public class Product {
     public Product() {
     }
 
-    public Product(int id, String nameProduct, String dateOfManufacture, String color) {
+    public Product(String id, String nameProduct, String dateOfManufacture, String color) {
         this.id = id;
         this.nameProduct = nameProduct;
         this.dateOfManufacture = dateOfManufacture;
         this.color = color;
     }
-
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 

@@ -1,6 +1,6 @@
-package ss12.baitap.CollectionFrameWork.view;
+package ss17.baitap.CollectionFrameWork.view;
 
-import ss12.baitap.CollectionFrameWork.controller.ProductController;
+import ss17.baitap.CollectionFrameWork.controller.ProductController;
 public class main {
     public static void main(String[] args) {
         new ProductController().menuProduct();
