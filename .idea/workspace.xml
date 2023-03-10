@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/FileCopyBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/CoppyBinary/FileCopyBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,26 +51,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileCopyBinary">
+  <component name="RunManager" selected="Application.ValidatePhone">
     <configuration name="FileCopyBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss17.baitap.CoppyBinary.FileCopyBinary" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ss17.baitap.CoppyBinary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.thuchanh.SumInFileText.Main" />
-      <module name="Module2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ss16.thuchanh.SumInFileText.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +78,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15.thuchanh.Test" />
+    <configuration name="ValidateClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18.baitap.ValidateClass" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15.thuchanh.*" />
+          <option name="PATTERN" value="ss18.baitap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatePhone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss18.baitap.ValidatePhone" />
+      <module name="Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss18.baitap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidatePhone" />
+        <item itemvalue="Application.ValidateClass" />
         <item itemvalue="Application.FileCopyBinary" />
         <item itemvalue="Application.ReadFile" />
         <item itemvalue="Application.ss15.baitap.Test" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +178,7 @@
       <workItem from="1678257457932" duration="12307000" />
       <workItem from="1678331768021" duration="8303000" />
       <workItem from="1678372766741" duration="2476000" />
+      <workItem from="1678419085522" duration="4240000" />
     </task>
     <servers />
   </component>
