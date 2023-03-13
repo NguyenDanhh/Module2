@@ -29,8 +29,10 @@ public class FuramaController {
                     do {
                         System.out.println("Quản lý khách hàng  ");
                         System.out.println("--------------------");
-                        System.out.println("1.Hiển thị danh sách khách hàng \n" + "2.Thêm khách hàng mới \n" +
-                                "3.Chỉnh sửa khách hàng  \n" + "4.Quay lại menu");
+                        System.out.println("1.Hiển thị danh sách khách hàng \n" +
+                                "2.Thêm khách hàng mới \n" +
+                                "3.Chỉnh sửa khách hàng  \n" +
+                                "4.Quay lại menu");
                         choice2 = Integer.parseInt(scanner.nextLine());
                     } while (choice2 > 0 && choice2 < 4);
                     break;

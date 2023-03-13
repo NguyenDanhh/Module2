@@ -1,63 +1,63 @@
 package CaseStudy.model;
 
 public abstract class Person {
-    private String ten ;
-    private int cMND ;
-    private String ngaySinh;
-    private String gioiTinh;
-    private int sDT;
+    private String name;
+    private int identityCard;
+    private String dateOfBirth;
+    private String gender;
+    private int phoneNumber;
     private String email;
 
     public Person() {
     }
 
-    public Person(String ten, int cMND, String ngaySinh, String gioiTinh, int sDT, String email) {
-        this.ten = ten;
-        this.cMND = cMND;
-        this.ngaySinh = ngaySinh;
-        this.gioiTinh = gioiTinh;
-        this.sDT = sDT;
+    public Person(String name, int identityCard, String dateOfBirth, String gender, int phoneNumber, String email) {
+        this.name = name;
+        this.identityCard = identityCard;
+        this.dateOfBirth = dateOfBirth;
+        this.gender = gender;
+        this.phoneNumber = phoneNumber;
         this.email = email;
     }
 
-    public String getTen() {
-        return ten;
+    public String getName() {
+        return name;
     }
 
-    public void setTen(String ten) {
-        this.ten = ten;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public int getcMND() {
-        return cMND;
+    public int getIdentityCard() {
+        return identityCard;
     }
 
-    public void setcMND(int cMND) {
-        this.cMND = cMND;
+    public void setIdentityCard(int identityCard) {
+        this.identityCard = identityCard;
     }
 
-    public String getNgaySinh() {
-        return ngaySinh;
+    public String getDateOfBirth() {
+        return dateOfBirth;
     }
 
-    public void setNgaySinh(String ngaySinh) {
-        this.ngaySinh = ngaySinh;
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
     }
 
-    public String getGioiTinh() {
-        return gioiTinh;
+    public String getGender() {
+        return gender;
     }
 
-    public void setGioiTinh(String gioiTinh) {
-        this.gioiTinh = gioiTinh;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
-    public int getsDT() {
-        return sDT;
+    public int getPhoneNumber() {
+        return phoneNumber;
     }
 
-    public void setsDT(int sDT) {
-        this.sDT = sDT;
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
     }
 
     public String getEmail() {
@@ -70,11 +70,11 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        return "ten='" + ten + '\'' +
-                ", cMND=" + cMND +
-                ", ngaySinh='" + ngaySinh + '\'' +
-                ", gioiTinh='" + gioiTinh + '\'' +
-                ", sDT=" + sDT +
+        return "Tên ='" + name + '\'' +
+                ",CMND =" + identityCard +
+                ", Ngày sinh='" + dateOfBirth + '\'' +
+                ", Giới tính ='" + gender + '\'' +
+                ", Số điện thoại =" + phoneNumber +
                 ", email='" + email + '\'';
     }
 }

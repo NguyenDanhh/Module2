@@ -1,69 +1,69 @@
 package CaseStudy.model;
 
 public abstract class Facility {
-    private String tenDichVu;
-    private double dienTich;
-    private String gia;
-    private int nguoiToiDa;
-    private String kieuThue;
+    private String serviceName;
+    private double Area;
+    private String price;
+    private int maximumPerson;
+    private String rentalType;
 
     public Facility() {
     }
 
     public Facility(String name, double area, String price, int people, String rentalType) {
-        this.tenDichVu = name;
-        this.dienTich = area;
-        this.gia = price;
-        this.nguoiToiDa = people;
-        this.kieuThue = rentalType;
+        this.serviceName = name;
+        this.Area = area;
+        this.price = price;
+        this.maximumPerson = people;
+        this.rentalType = rentalType;
     }
 
-    public String getTenDichVu() {
-        return tenDichVu;
+    public String getServiceName() {
+        return serviceName;
     }
 
-    public void setTenDichVu(String tenDichVu) {
-        this.tenDichVu = tenDichVu;
+    public void setServiceName(String serviceName) {
+        this.serviceName = serviceName;
     }
 
-    public double getDienTich() {
-        return dienTich;
+    public double getArea() {
+        return Area;
     }
 
-    public void setDienTich(double dienTich) {
-        this.dienTich = dienTich;
+    public void setArea(double area) {
+        this.Area = area;
     }
 
-    public String getGia() {
-        return gia;
+    public String getPrice() {
+        return price;
     }
 
-    public void setGia(String gia) {
-        this.gia = gia;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
-    public int getNguoiToiDa() {
-        return nguoiToiDa;
+    public int getMaximumPerson() {
+        return maximumPerson;
     }
 
-    public void setNguoiToiDa(int nguoiToiDa) {
-        this.nguoiToiDa = nguoiToiDa;
+    public void setMaximumPerson(int maximumPerson) {
+        this.maximumPerson = maximumPerson;
     }
 
-    public String getKieuThue() {
-        return kieuThue;
+    public String getRentalType() {
+        return rentalType;
     }
 
-    public void setKieuThue(String kieuThue) {
-        this.kieuThue = kieuThue;
+    public void setRentalType(String rentalType) {
+        this.rentalType = rentalType;
     }
 
     @Override
     public String toString() {
-        return "Tên dịch vụ = " + tenDichVu + '\'' +
-                ", Diện tích = " + dienTich +
-                ", Giá = " + gia + '\'' +
-                ", Người Tối Đa = " + nguoiToiDa +
-                ", Kiểu thuê = " + kieuThue + '\'';
+        return "Tên dịch vụ = " + serviceName + '\'' +
+                ", Diện tích = " + Area +
+                ", Giá = " + price + '\'' +
+                ", Người Tối Đa = " + maximumPerson +
+                ", Kiểu thuê = " + rentalType + '\'';
     }
 }

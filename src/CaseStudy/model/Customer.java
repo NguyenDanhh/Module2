@@ -1,50 +1,50 @@
 package CaseStudy.model;
 
 public class Customer extends Person{
-    private int maKhachHang ;
-    private String loaiKhach;
-    private String diaChi;
+    private int idCustomer;
+    private String typeOfGuest;
+    private String Address;
 
     public Customer() {
     }
 
-    public Customer(String ten, int cMND, String ngaySinh, String gioiTinh, int sDT, String email, int maKhachHang, String loaiKhach, String diaChi) {
-        super(ten, cMND, ngaySinh, gioiTinh, sDT, email);
-        this.maKhachHang = maKhachHang;
-        this.loaiKhach = loaiKhach;
-        this.diaChi = diaChi;
+    public Customer(String name, int identityCard, String dateOfBirth, String gender, int phoneNumber, String email, int idCustomer, String typeOfGuest, String address) {
+        super(name, identityCard, dateOfBirth, gender, phoneNumber, email);
+        this.idCustomer = idCustomer;
+        this.typeOfGuest = typeOfGuest;
+        Address = address;
     }
 
-    public int getMaKhachHang() {
-        return maKhachHang;
+    public int getIdCustomer() {
+        return idCustomer;
     }
 
-    public void setMaKhachHang(int maKhachHang) {
-        this.maKhachHang = maKhachHang;
+    public void setIdCustomer(int idCustomer) {
+        this.idCustomer = idCustomer;
     }
 
-    public String getLoaiKhach() {
-        return loaiKhach;
+    public String getTypeOfGuest() {
+        return typeOfGuest;
     }
 
-    public void setLoaiKhach(String loaiKhach) {
-        this.loaiKhach = loaiKhach;
+    public void setTypeOfGuest(String typeOfGuest) {
+        this.typeOfGuest = typeOfGuest;
     }
 
-    public String getDiaChi() {
-        return diaChi;
+    public String getAddress() {
+        return Address;
     }
 
-    public void setDiaChi(String diaChi) {
-        this.diaChi = diaChi;
+    public void setAddress(String address) {
+        this.Address = address;
     }
 
     @Override
     public String toString() {
         return "Customer{" + super.toString() +
-                "maKhachHang=" + maKhachHang +
-                ", loaiKhach='" + loaiKhach + '\'' +
-                ", diaChi='" + diaChi + '\'' +
+                "Mã khách hàng =" + idCustomer +
+                ", Loại khách='" + typeOfGuest + '\'' +
+                ", Địa chỉ ='" + Address + '\'' +
                 '}';
     }
 }

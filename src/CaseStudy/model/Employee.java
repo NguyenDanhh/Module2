@@ -1,61 +1,61 @@
 package CaseStudy.model;
 
 public class Employee extends Person {
-    private int maNhanVien;
-    private String trinhDo;
-    private String viTri;
-    private String luong;
+    private int idEmploye;
+    private String level;
+    private String position;
+    private String salary;
 
     public Employee() {
     }
 
-    public Employee(String ten, int cMND, String ngaySinh, String gioiTinh, int sDT, String email, int maNhanVien, String trinhDo, String viTri, String luong) {
-        super(ten, cMND, ngaySinh, gioiTinh, sDT, email);
-        this.maNhanVien = maNhanVien;
-        this.trinhDo = trinhDo;
-        this.viTri = viTri;
-        this.luong = luong;
+    public Employee(String name, int identityCard, String dateOfBirth, String gender, int phoneNumber, String email, int idEmploye, String level, String position, String salary) {
+        super(name, identityCard, dateOfBirth, gender, phoneNumber, email);
+        this.idEmploye = idEmploye;
+        this.level = level;
+        this.position = position;
+        this.salary = salary;
     }
 
-    public int getMaNhanVien() {
-        return maNhanVien;
+    public int getIdEmploye() {
+        return idEmploye;
     }
 
-    public void setMaNhanVien(int maNhanVien) {
-        this.maNhanVien = maNhanVien;
+    public void setIdEmploye(int idEmploye) {
+        this.idEmploye = idEmploye;
     }
 
-    public String getTrinhDo() {
-        return trinhDo;
+    public String getLevel() {
+        return level;
     }
 
-    public void setTrinhDo(String trinhDo) {
-        this.trinhDo = trinhDo;
+    public void setLevel(String level) {
+        this.level = level;
     }
 
-    public String getViTri() {
-        return viTri;
+    public String getPosition() {
+        return position;
     }
 
-    public void setViTri(String viTri) {
-        this.viTri = viTri;
+    public void setPosition(String position) {
+        this.position = position;
     }
 
-    public String getLuong() {
-        return luong;
+    public String getSalary() {
+        return salary;
     }
 
-    public void setLuong(String luong) {
-        this.luong = luong;
+    public void setSalary(String salary) {
+        this.salary = salary;
     }
 
     @Override
     public String toString() {
         return "Employee{" + super.toString() +
-                "maNhanVien=" + maNhanVien +
-                ", trinhDo='" + trinhDo + '\'' +
-                ", viTri='" + viTri + '\'' +
-                ", luong='" + luong + '\'' +
+                "Mã Nhân viên=" + idEmploye +
+                ", Trình độ='" + level + '\'' +
+                ", Vị trí ='" + position + '\'' +
+                ", Lương='" + salary + '\'' +
                 '}';
     }
 }

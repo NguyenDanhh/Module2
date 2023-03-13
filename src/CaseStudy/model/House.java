@@ -1,41 +1,39 @@
 package CaseStudy.model;
 
-import java.io.File;
-
 public class House extends Facility {
-    private String tieuChuanPhong;
-    private int soTang;
+    private String roomStandard;
+    private int numberOfFloor;
 
     public House() {
     }
 
-    public House(String name, double area, String price, int people, String rentalType, String tieuChuanPhong, int soTang) {
+    public House(String name, double area, String price, int people, String rentalType, String roomStandard, int numberOfFloor) {
         super(name, area, price, people, rentalType);
-        this.tieuChuanPhong = tieuChuanPhong;
-        this.soTang = soTang;
+        this.roomStandard = roomStandard;
+        this.numberOfFloor = numberOfFloor;
     }
 
-    public String getTieuChuanPhong() {
-        return tieuChuanPhong;
+    public String getRoomStandard() {
+        return roomStandard;
     }
 
-    public void setTieuChuanPhong(String tieuChuanPhong) {
-        this.tieuChuanPhong = tieuChuanPhong;
+    public void setRoomStandard(String roomStandard) {
+        this.roomStandard = roomStandard;
     }
 
-    public int getSoTang() {
-        return soTang;
+    public int getNumberOfFloor() {
+        return numberOfFloor;
     }
 
-    public void setSoTang(int soTang) {
-        this.soTang = soTang;
+    public void setNumberOfFloor(int numberOfFloor) {
+        this.numberOfFloor = numberOfFloor;
     }
 
     @Override
     public String toString() {
         return "House{" + super.toString() +
-                "tieuChuanPhong='" + tieuChuanPhong + '\'' +
-                ", soTang=" + soTang +
+                "Tiêu chuẩn phòng='" + roomStandard + '\'' +
+                ", Số tầng=" + numberOfFloor +
                 '}';
     }
 }
