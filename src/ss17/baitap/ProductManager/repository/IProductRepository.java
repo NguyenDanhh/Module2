@@ -7,13 +7,6 @@ import java.util.List;
 public interface IProductRepository {
     List<Product> getList();
 
-    void findElement();
-
-    void findElement(int id);
-
-    void addProduct(Product product);
-
-    void editProduct(String id);
-
-    void deleteProduct(Product element);
+    void addProduct(String path, List<Product> list);
+    List<Product> findProduct(int id );
 }

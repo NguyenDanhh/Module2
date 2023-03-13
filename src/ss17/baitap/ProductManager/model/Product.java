@@ -1,7 +1,7 @@
 package ss17.baitap.ProductManager.model;
 
 public class Product {
-    private String id;
+    private int id;
     private String nameProduct;
     private String dateOfManufacture;
     private String color;
@@ -9,17 +9,17 @@ public class Product {
     public Product() {
     }
 
-    public Product(String id, String nameProduct, String dateOfManufacture, String color) {
+    public Product(int id, String nameProduct, String dateOfManufacture, String color) {
         this.id = id;
         this.nameProduct = nameProduct;
         this.dateOfManufacture = dateOfManufacture;
         this.color = color;
     }
-    public String getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(int id) {
         this.id = id;
     }
 

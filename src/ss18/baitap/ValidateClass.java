@@ -6,7 +6,7 @@ import java.util.regex.Pattern;
 
 public class ValidateClass {
     private static boolean checkClassName(String str) {
-        Pattern pattern = Pattern.compile("^[C || A || P][0-9]{4}[G || H || I || K]$");
+        Pattern pattern = Pattern.compile("^[C | A | P][0-9]{4}[G | H | I | K]$");
         Matcher matcher = pattern.matcher(str);
         if (matcher.find()) {
             System.out.println("OK");

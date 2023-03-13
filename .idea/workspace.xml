@@ -5,9 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/controller/FuramaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/ReadFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/WriteFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file_save_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/IProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/IProducService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/IProducService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,21 +55,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/codegym/Module2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/codegym/Module2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.ValidatePhone">
+}]]></component>
+  <component name="RunManager" selected="Application.main">
     <configuration name="FileCopyBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ss17.baitap.CoppyBinary.FileCopyBinary" />
       <module name="Module2" />
@@ -65,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss16.baitap.readfilecsv.ReadFile" />
+    <configuration name="FuramaController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CaseStudy.Task1.controller.FuramaController" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss16.baitap.readfilecsv.*" />
+          <option name="PATTERN" value="CaseStudy.Task1.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ss15.baitap.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ss15.baitap.Test" />
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss17.baitap.ProductManager.view.main" />
       <module name="Module2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ss15.baitap.*" />
+          <option name="PATTERN" value="ss17.baitap.ProductManager.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
+        <item itemvalue="Application.FuramaController" />
         <item itemvalue="Application.ValidatePhone" />
         <item itemvalue="Application.ValidateClass" />
         <item itemvalue="Application.FileCopyBinary" />
-        <item itemvalue="Application.ReadFile" />
-        <item itemvalue="Application.ss15.baitap.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +196,10 @@
       <workItem from="1678257457932" duration="12307000" />
       <workItem from="1678331768021" duration="8303000" />
       <workItem from="1678372766741" duration="2476000" />
-      <workItem from="1678419085522" duration="4240000" />
+      <workItem from="1678419085522" duration="7835000" />
+      <workItem from="1678557331459" duration="721000" />
+      <workItem from="1678618935663" duration="196000" />
+      <workItem from="1678677120687" duration="8135000" />
     </task>
     <servers />
   </component>

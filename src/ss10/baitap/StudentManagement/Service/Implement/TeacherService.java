@@ -1,6 +1,4 @@
 package ss10.baitap.StudentManagement.Service.Implement;
-
-import ss10.baitap.StudentManagement.Model.Students;
 import ss10.baitap.StudentManagement.Model.Teacher;
 import ss10.baitap.StudentManagement.Repository.ITeacherRepository;
 import ss10.baitap.StudentManagement.Repository.Implement.TeacherRepository;
