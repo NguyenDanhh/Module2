@@ -5,27 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="325c8fc9-e5a5-480f-b582-d7a83fba7b54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/controller/FuramaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CaseStudy/model/Villa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss10/baitap/StudentManagement/Service/Implement/TeacherService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/ReadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/ReadFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/WriteFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/common/WriteFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file_save_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/IProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/IProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/repository/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/IProducService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/IProducService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidateClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss18/baitap/ValidatePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/data/file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss17/baitap/ProductManager/model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +181,7 @@
       <workItem from="1678419085522" duration="7835000" />
       <workItem from="1678557331459" duration="721000" />
       <workItem from="1678618935663" duration="196000" />
-      <workItem from="1678677120687" duration="8135000" />
+      <workItem from="1678677120687" duration="8897000" />
     </task>
     <servers />
   </component>
