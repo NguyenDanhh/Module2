@@ -7,21 +7,22 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Reader {
-    public static List<String> readFile(String path) {
+public class ReadFile {
+    public static List<String> read(String path) {
         FileReader fileReader = null;
         List<String> stringList = new ArrayList<>();
-        String line = null;
+        String line = "";
         try {
             fileReader = new FileReader(path);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             while ((line = bufferedReader.readLine())!=null) {
                 stringList.add(line);
             }
+            bufferedReader.close();
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
         return stringList;
     }

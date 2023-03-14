@@ -52,10 +52,16 @@ public class Employee extends Person {
     @Override
     public String toString() {
         return "Employee{" + super.toString() +
-                "Mã Nhân viên=" + idEmploye +
+                ",Mã Nhân viên=" + idEmploye +
                 ", Trình độ='" + level + '\'' +
                 ", Vị trí ='" + position + '\'' +
                 ", Lương='" + salary + '\'' +
                 '}';
+    }
+    public String toCSV() {
+        return super.getName() + "," + super.getIdentityCard() +"," +
+                super.getDateOfBirth() +"," + super.getGender() +
+                "," + super.getPhoneNumber() + "," + super.getEmail() +
+                "," + idEmploye +"," + level +"," + position +"," + salary;
     }
 }
