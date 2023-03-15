@@ -3,7 +3,7 @@ package CaseStudy.model;
 public class Customer extends Person{
     private int idCustomer;
     private String typeOfGuest;
-    private String Address;
+    private String address;
 
     public Customer() {
     }
@@ -12,7 +12,7 @@ public class Customer extends Person{
         super(name, identityCard, dateOfBirth, gender, phoneNumber, email);
         this.idCustomer = idCustomer;
         this.typeOfGuest = typeOfGuest;
-        Address = address;
+        this.address = address;
     }
 
     public int getIdCustomer() {
@@ -32,11 +32,11 @@ public class Customer extends Person{
     }
 
     public String getAddress() {
-        return Address;
+        return address;
     }
 
     public void setAddress(String address) {
-        this.Address = address;
+        this.address = address;
     }
 
     @Override
@@ -44,7 +44,12 @@ public class Customer extends Person{
         return "Customer{" + super.toString() +
                 "Mã khách hàng =" + idCustomer +
                 ", Loại khách='" + typeOfGuest + '\'' +
-                ", Địa chỉ ='" + Address + '\'' +
+                ", Địa chỉ ='" + address + '\'' +
                 '}';
+    }
+    public String toCSV(){
+        return super.getName() +","+ super.getIdentityCard() + "," + super.getDateOfBirth() + "," +
+                super.getGender() + "," + super.getPhoneNumber() +","+ super.getEmail() +","+
+                idCustomer + "," + typeOfGuest + "," + address;
     }
 }

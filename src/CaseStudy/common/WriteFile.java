@@ -8,7 +8,7 @@ import java.util.List;
 public class WriteFile {
     public static void write(String path , List<String> strings) {
         try {
-            FileWriter fileWriter = new FileWriter(path);
+            FileWriter fileWriter = new FileWriter(path,true);
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
             for(String line: strings) {
                 bufferedWriter.write(line);

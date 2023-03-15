@@ -1,16 +1,14 @@
-package CaseStudy.repository.impl;
+package CaseStudy.repository.Person.impl;
 
 import CaseStudy.common.ReadFile;
 import CaseStudy.common.WriteFile;
 import CaseStudy.model.Employee;
-import CaseStudy.repository.IEmployeeRepository;
+import CaseStudy.repository.Person.IEmployeeRepository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeRepository implements IEmployeeRepository {
-
-
     private static final String PATH = "src/CaseStudy/data/file_employee.csv";
 
     @Override
@@ -36,9 +34,14 @@ public class EmployeeRepository implements IEmployeeRepository {
     }
 
     @Override
-    public void editEmployee(String path , List<String> list) {
-        WriteFile.write(path, list);
+    public void editEmployee(int i, Employee employee, List<Employee> list) {
+        List<String> list1 = new ArrayList<>();
+        String str = employee.toCSV();
+        list.set(i, employee);
+        list1.add(str);
+        WriteFile.write(PATH, list1);
     }
+
 
 }
 

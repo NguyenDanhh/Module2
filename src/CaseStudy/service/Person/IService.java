@@ -1,4 +1,4 @@
-package CaseStudy.service;
+package CaseStudy.service.Person;
 
 import java.util.List;
 

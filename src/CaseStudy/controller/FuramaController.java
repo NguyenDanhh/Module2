@@ -1,7 +1,10 @@
 package CaseStudy.controller;
 
-import CaseStudy.service.impl.EmployeeService;
-
+import CaseStudy.service.Facility.impl.HouseService;
+import CaseStudy.service.Facility.impl.RoomService;
+import CaseStudy.service.Facility.impl.VillaService;
+import CaseStudy.service.Person.impl.CustomerService;
+import CaseStudy.service.Person.impl.EmployeeService;
 import java.util.Scanner;
 
 public class FuramaController {
@@ -45,6 +48,7 @@ public class FuramaController {
                     } while (choice1 > 0 && choice1 < 4);
                     break;
                 case 2:
+                    CustomerService customerService = new CustomerService();
                     int choice2;
                     do {
                         System.out.println("Quản lý khách hàng  ");
@@ -54,9 +58,23 @@ public class FuramaController {
                                 "3.Chỉnh sửa khách hàng  \n" +
                                 "4.Quay lại menu");
                         choice2 = Integer.parseInt(scanner.nextLine());
+                        switch (choice2) {
+                            case 1:
+                                customerService.display();
+                                break;
+                            case 2:
+                                customerService.add();
+                                break;
+                            case 3:
+                                customerService.editCustomer();
+                                break;
+                        }
                     } while (choice2 > 0 && choice2 < 4);
                     break;
                 case 3:
+                    HouseService houseService = new HouseService();
+                    VillaService villaService = new VillaService();
+                    RoomService roomService = new RoomService();
                     int choice3;
                     do {
                         System.out.println("Quản lý cơ sở  ");
@@ -66,6 +84,57 @@ public class FuramaController {
                                 "3.Hiển thị danh sách bảo trì cơ sở  \n" +
                                 "4.Quay lại menu");
                         choice3 = Integer.parseInt(scanner.nextLine());
+                        switch (choice3) {
+                            case 1:
+                                int choices;
+                                do {
+                                    System.out.println("Danh Sách Hiển Thị Cơ Sở \n" +
+                                            "--------------------- \n" +
+                                            "1.Hiển thị danh sách villa \n" +
+                                            "2.Hiển thị danh sách nhà \n" +
+                                            "3.Hiển thị phòng \n" +
+                                            "4.Quay lại menu Quản lý cơ sở");
+                                    choices = Integer.parseInt(scanner.nextLine());
+                                    switch (choices) {
+                                        case 1:
+                                            villaService.display();
+                                            break;
+                                        case 2:
+                                            houseService.display();
+                                            break;
+                                        case 3:
+                                            roomService.display();
+                                            break;
+                                    }
+                                } while (choices > 0 && choices < 4);
+                                break;
+                            case 2:
+                                int choicee;
+                                do {
+                                    System.out.println("Danh Sách Thêm Cơ Sở \n" +
+                                            "------------------------- \n" +
+                                            "1.Thêm villa mới \n" +
+                                            "2.Thêm nhà mới \n" +
+                                            "3.Thêm phòng mới \n" +
+                                            "4.Quay lại menu Quản lý cơ sở ");
+                                    choicee = Integer.parseInt(scanner.nextLine());
+                                    switch (choicee) {
+                                        case 1:
+                                            villaService.add();
+                                            break;
+                                        case 2:
+                                            houseService.add();
+                                            break;
+                                        case 3:
+                                            roomService.add();
+                                            break;
+
+                                    }
+                                } while (choicee > 0 && choicee < 4);
+                                break;
+                            case 3:
+                                break;
+                        }
                     } while (choice3 > 0 && choice3 < 4);
                     break;
                 case 4:
