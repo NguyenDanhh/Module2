@@ -4,7 +4,6 @@ public class Customer extends Person{
     private int idCustomer;
     private String typeOfGuest;
     private String address;
-
     public Customer() {
     }
 

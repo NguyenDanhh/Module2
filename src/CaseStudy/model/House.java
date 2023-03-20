@@ -3,24 +3,24 @@ package CaseStudy.model;
 public class House extends Facility {
     private String roomStandard;
     private int numberOfFloor;
-    private int id;
+    private String id;
 
     public House() {
     }
 
 
-    public House(int id, String name, double area, String price, int people, String rentalType, String roomStandard, int numberOfFloor) {
+    public House(String id, String name, double area, double price, int people, String rentalType, String roomStandard, int numberOfFloor) {
         super(name, area, price, people, rentalType);
         this.id = id;
         this.roomStandard = roomStandard;
         this.numberOfFloor = numberOfFloor;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -42,14 +42,14 @@ public class House extends Facility {
 
     @Override
     public String toString() {
-        return "House{" +"Số nhà =" + super.toString() +
-                "Tiêu chuẩn phòng='" + roomStandard + '\'' +
+        return "House{" + "Mã dịch vụ =" + id + "," + super.toString() +
+                ", Tiêu chuẩn phòng='" + roomStandard + '\'' +
                 ", Số tầng=" + numberOfFloor +
                 '}';
     }
 
     public String toCSV() {
-        return super.getServiceName() + "," + super.getArea() + "," + super.getPrice() + "," + super.getMaximumPerson() +
+        return id + "," + super.getServiceName() + "," + super.getArea() + "," + super.getPrice() + "," + super.getMaximumPerson() +
                 "," + super.getRentalType() + "," + roomStandard + "," + numberOfFloor;
     }
 }

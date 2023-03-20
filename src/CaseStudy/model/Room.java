@@ -1,23 +1,23 @@
 package CaseStudy.model;
 
 public class Room extends Facility{
-    private int id ;
+    private String id ;
     private String accompaniedService;
 
     public Room() {
     }
 
-    public Room(int id ,String name, double area, String price, int people, String rentalType, String accompaniedService) {
+    public Room(String id ,String name, double area, double price, int people, String rentalType, String accompaniedService) {
         super(name, area, price, people, rentalType);
         this.id = id ;
         this.accompaniedService = accompaniedService;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -32,7 +32,7 @@ public class Room extends Facility{
     @Override
     public String toString() {
         return "Room{" +
-                "Mã Phòng =" + id + super.toString()+
+                "Mã Dịch vụ =" + id + "," + super.toString()+
                 ", accompaniedService='" + accompaniedService + '\'' +
                 '}';
     }

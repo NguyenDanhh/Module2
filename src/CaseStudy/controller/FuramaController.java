@@ -127,8 +127,7 @@ public class FuramaController {
                                             break;
                                         case 3:
                                             roomService.add();
-                                            break;
-
+                                            break; 
                                     }
                                 } while (choicee > 0 && choicee < 4);
                                 break;

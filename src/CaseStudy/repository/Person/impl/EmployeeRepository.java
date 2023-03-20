@@ -4,7 +4,6 @@ import CaseStudy.common.ReadFile;
 import CaseStudy.common.WriteFile;
 import CaseStudy.model.Employee;
 import CaseStudy.repository.Person.IEmployeeRepository;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,8 +41,4 @@ public class EmployeeRepository implements IEmployeeRepository {
         WriteFile.write(PATH, list1);
     }
 
-
 }
-
-
-

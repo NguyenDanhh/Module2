@@ -3,14 +3,14 @@ package CaseStudy.model;
 public abstract class Facility {
     private String serviceName;
     private double Area;
-    private String price;
+    private double price;
     private int maximumPerson;
     private String rentalType;
 
     public Facility() {
     }
 
-    public Facility(String name, double area, String price, int people, String rentalType) {
+    public Facility(String name, double area, double price, int people, String rentalType) {
         this.serviceName = name;
         this.Area = area;
         this.price = price;
@@ -34,11 +34,11 @@ public abstract class Facility {
         this.Area = area;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

@@ -1,9 +1,13 @@
 package CaseStudy.service.Person.impl;
 
+import CaseStudy.common.Validate;
 import CaseStudy.model.Customer;
 import CaseStudy.repository.Person.impl.CustomerRepository;
 import CaseStudy.service.Person.ICustomerService;
+import jdk.jshell.execution.Util;
 
+import java.time.LocalDate;
+import java.time.Period;
 import java.util.List;
 import java.util.Scanner;
 
@@ -27,7 +31,18 @@ public class CustomerService implements ICustomerService {
                 int identityCard = Integer.parseInt(scanner.nextLine());
                 customer.setIdentityCard(identityCard);
                 System.out.println("Nhập ngày tháng năm sinh cần chỉnh sửa khách hàng");
-                String dateOfBirth = scanner.nextLine();
+                String dateOfBirth ;
+                do {
+                    dateOfBirth = scanner.nextLine();
+                    if(Validate.parseStringtoLocalDate(dateOfBirth) != null ||
+                            Period.between(Validate.parseStringtoLocalDate(dateOfBirth), LocalDate.now()).getYears() > 18 ||
+                            Period.between(Validate.parseStringtoLocalDate(dateOfBirth) , LocalDate.now()).getYears() < 100 ){
+                            break;
+                    }else {
+                        System.out.println("Tuổi phải lớn hơn 18 và bé hơn 100 . Mời nhập lại ");
+                    }
+                }while (true);
+                LocalDate localDate = Validate.parseStringtoLocalDate(dateOfBirth);
                 customer.setDateOfBirth(dateOfBirth);
                 System.out.println("Nhập giới tính cần chỉnh sửa khách hàng");
                 String gender = scanner.nextLine();
@@ -44,7 +59,7 @@ public class CustomerService implements ICustomerService {
                 System.out.println("Nhập địa chỉ khách hàng");
                 String address = scanner.nextLine();
                 customer.setAddress(address);
-                Customer customer1 = new Customer(name, identityCard, dateOfBirth, gender, phoneNumber, email, id, typeOfGuest, address);
+                Customer customer1 = new Customer(name, identityCard, localDate, gender, phoneNumber, email, id, typeOfGuest, address);
                 customerRepository.editCustomer(i, customer1, list);
                 return;
             }
